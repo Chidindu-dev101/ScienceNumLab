@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(228, 226, 226, 0.753);
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/header-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #00ffff;
+  font-size: 135%;
+  box-shadow: 0px 5px #ffa500;
+}
+a {
+  cursor: pointer;
+}
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link.active {
+  color: #00ffff;
+}
+.dropdown-menu,
+.dropdown-menu a {
+  color: #00ffff;
+  text-align: center;
+  border: none;
+  font-size: 0.85rem;
+}
+.dropdown-menu a.active,
+.dropdown-menu a:hover,
+.text-highlight {
+  color: #ffa500;
+  background-color: white;
+  font-weight: 600;
+}
+.dropdown-menu a:active {
+  background-color: black;
+  color: #00ffff;
+}
+.navbar-toggler {
+  border: none;
+  background-color: #00ffff;
+}
+.intro-image {
+  width: 100%;
+}
+
+.intro-text-area {
+  background-color: #696969;
+  color: #00ffff;
+  border-radius: 50px;
+  box-shadow: 5px 5px #ffa500;
+}
+.intro-text-area h2,
+.intro-text-area p,
+main article.card {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  text-align: left;
+  border-radius: 50px;
+  color: #00ffff;
+  background-color: #696969;
+}
+footer {
+  background-color: #ffa500;
+  color: #696969;
+}
+footer a,
+footer a:visited {
+  color: white;
+  text-align: center;
+}
