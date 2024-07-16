@@ -8,4 +8,12 @@
   border-radius: 20px;
   font-weight: 700;
   font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main section.card {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  color: #00ffff;
+  background-color: #696969;
 }
