@@ -1,5 +1,11 @@
 .heading-bg {
   background-color: #ffa500;
   color: white;
-  
+}
+.unit-intro-area {
+  background-color: #696969;
+  color: #00ffff;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
