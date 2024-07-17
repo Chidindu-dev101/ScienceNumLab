@@ -6,9 +6,12 @@
   background-color: #696969;
   color: #00ffff;
   border-radius: 20px;
-  font-weight: 700;
   font-size: 1.3rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+section.card.unit-intro-area p.card-body {
+  background-color: #7c7c7c;
+  border-radius: 20px;
 }
 main section.card {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,4 +19,13 @@ main section.card {
   border-radius: 20px;
   color: #00ffff;
   background-color: #696969;
+}
+.units {
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: white;
+  color: #ffa500;
+  padding-left: 5px;
+  padding-right: 5px;
 }
