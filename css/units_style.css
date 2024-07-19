@@ -38,7 +38,8 @@ section.card h3.card-title {
 }
 article.card-footer div.units {
   display: block;
-  width: 40%;
+  width: fit-content;
+  padding: 10px;
   font-size: 1.6rem;
   margin: auto;
 }
