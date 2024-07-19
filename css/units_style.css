@@ -26,6 +26,25 @@ main section.card {
   margin-bottom: 3px;
   background-color: white;
   color: #ffa500;
-  padding:5px;
+  padding: 5px;
   border-radius: 5px;
+}
+section.card h4.card-title,
+section.card h3.card-title {
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+article.card-footer div.units {
+  display: block;
+  width: 40%;
+  font-size: 1.6rem;
+  margin: auto;
+}
+article.card-footer p {
+  margin-top: 20px;
+  font-size: 1.15rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
 }
