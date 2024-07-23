@@ -40,12 +40,10 @@ article.card-footer div.units {
   display: block;
   width: fit-content;
   padding: 10px;
-  font-size: 1.6rem;
   margin: auto;
 }
 article.card-footer p {
   margin-top: 20px;
-  font-size: 1.15rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
 }
