@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/header-background.jpg");
@@ -6,6 +9,9 @@ header {
   color: #ffffff;
   font-size: 135%;
   box-shadow: 0px 5px #ff220c;
+}
+main.container {
+  margin-top: 120px;
 }
 a {
   cursor: pointer;
@@ -24,18 +30,12 @@ a {
   font-size: 0.85rem;
 }
 .dropdown-menu a.active,
-.dropdown-menu a:hover,
-.intro-text-area p.text-highlight {
+.dropdown-menu a:hover {
   color: #ff220c;
-  background-color: white;
+
   font-weight: 600;
 }
-.intro-text-area p.text-highlight {
-  padding-left: 5px;
-  padding-right: 5px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.7rem;
-}
+
 .dropdown-menu a:active {
   background-color: black;
   color: #ffffff;
@@ -52,7 +52,20 @@ a {
   background-color: #424242;
   color: #ffffff;
   border-radius: 50px;
-  box-shadow: 5px 5px #ff220c;
+}
+#introTextArea1 {
+  box-shadow: -6px -6px #ff220c;
+}
+#introTextArea2 {
+  box-shadow: 6px 6px #ff220c;
+}
+.intro-text-area p.text-highlight {
+  background-color: white;
+  color: #730a00;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.7rem;
 }
 .intro-text-area h2,
 .intro-text-area p,
@@ -65,15 +78,39 @@ main article.card {
   background-color: #424242;
 }
 a.card-link {
-  color: #ff220c;
-  text-decoration: none;
+  color: #f1d302;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 1000;
+  display: none;
+  background-color: #730a00;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  opacity: 0.7;
+  
+}
+#back-to-top:hover {
+  opacity: 1;
 }
 footer {
   background-color: black;
-  color: #ff220c;
+  color: #ffffff;
 }
 footer a,
 footer a:visited {
-  color: white;
+  color: #f1d302;
   text-align: center;
 }
