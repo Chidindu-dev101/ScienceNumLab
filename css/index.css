@@ -31,14 +31,9 @@ a {
 }
 .dropdown-menu a.active,
 .dropdown-menu a:hover {
-  color: #ff220c;
-
-  font-weight: 600;
-}
-
-.dropdown-menu a:active {
-  background-color: black;
-  color: #ffffff;
+  color: #730a00;
+  background-color: #ffffff;
+  font-weight: 700;
 }
 .navbar-toggler {
   border: none;
@@ -47,7 +42,6 @@ a {
 .intro-image {
   width: 100%;
 }
-
 .intro-text-area {
   background-color: #424242;
   color: #ffffff;
@@ -100,7 +94,6 @@ a.card-link {
   cursor: pointer;
   outline: none;
   opacity: 0.7;
-  
 }
 #back-to-top:hover {
   opacity: 1;
