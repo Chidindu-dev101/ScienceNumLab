@@ -67,6 +67,9 @@ main article.card {
   color: #00ffff;
   background-color: #696969;
 }
+card-link{
+color:red;
+}
 footer {
   background-color: #ffa500;
   color: #696969;
