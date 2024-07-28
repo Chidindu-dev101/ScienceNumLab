@@ -2,19 +2,25 @@ html {
   scroll-behavior: smooth;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.432)),
     url("../img/header-background.jpg");
   background-size: cover;
   background-position: center center;
   color: #ffffff;
-  font-size: 135%;
-  box-shadow: 0px 5px #ff220c;
+  box-shadow: 0px 5px rgb(255, 34, 12);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  word-spacing: 5px;
+  letter-spacing: 0.3vw;
 }
-main.container {
-  margin-top: 120px;
+header h1 {
+  font-size: 2.2rem;
 }
-a {
-  cursor: pointer;
+header h1,
+.intro-text-area p.text-highlight {
+  font-weight: 800;
+  letter-spacing: 0.5vw;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .navbar-nav .nav-link,
 .navbar-nav .nav-link:hover,
@@ -22,12 +28,10 @@ a {
 .navbar-nav .nav-link.active {
   color: #ffffff;
 }
-.dropdown-menu,
 .dropdown-menu a {
   color: #ffffff;
   text-align: center;
   border: none;
-  font-size: 0.85rem;
 }
 .dropdown-menu a.active,
 .dropdown-menu a:hover {
@@ -39,6 +43,12 @@ a {
   border: none;
   background-color: #ffffff;
 }
+main section.container:first-child {
+  font-size: 1.3rem;
+}
+main section.container:last-child {
+  font-size: 1.2rem;
+}
 .intro-image {
   width: 100%;
 }
@@ -47,34 +57,50 @@ a {
   color: #ffffff;
   border-radius: 50px;
 }
-#introTextArea1 {
+article.intro-text-area:first-child {
   box-shadow: -6px -6px #ff220c;
 }
-#introTextArea2 {
+article.intro-text-area:last-child {
   box-shadow: 6px 6px #ff220c;
 }
 .intro-text-area p.text-highlight {
   background-color: white;
   color: #730a00;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.7rem;
+  padding: 6px 6px;
+  font-size: 1.4rem;
 }
 .intro-text-area h2,
 .intro-text-area p,
 main article.card {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1.4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
   border-radius: 50px;
   color: #ffffff;
   background-color: #424242;
 }
+main section.container:last-child section.row article.card {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+article.card h2.card-title {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 600;
+}
 a.card-link {
   color: #f1d302;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 6px;
+  margin-left: 6px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: nowrap;
+  word-spacing: 3px;
+}
+a.card-link:hover {
+  color: #ff220c;
 }
 #back-to-top {
   position: fixed;
@@ -106,4 +132,7 @@ footer a,
 footer a:visited {
   color: #f1d302;
   text-align: center;
+}
+footer a:hover {
+  color: #ff220c;
 }

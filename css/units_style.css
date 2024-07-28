@@ -3,7 +3,7 @@
   color: #ffffff;
 }
 main section.card {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2rem;
   border-radius: 20px;
   color: #ffffff;
@@ -12,7 +12,7 @@ main section.card {
 .unit-intro-area {
   border-radius: 20px;
   font-size: 1.3rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 section.card.unit-intro-area p.card-body {
   background-color: #424242;
@@ -26,12 +26,12 @@ section.card.unit-intro-area p.card-body {
   color: #730a00;
   padding: 5px;
   border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section.card h4.card-title,
 section.card h3.card-title {
   font-weight: 900;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   font-size: 1.3rem;
 }
 article.card-footer div.units {
