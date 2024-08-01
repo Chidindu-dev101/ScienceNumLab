@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Science Student's Tools</title>
+    <link rel="shortcut icon" href="img/Logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
     <header class="container-fluid bg-black p-4">
-      <section class="row p-3 align-items-center justify-content-center">
-        <h1 class="col-12 text-center mb-3">Science Student's Tools</h1>
+      <section>
+        <h1 class="text-center">
+          <img src="img/Logo.svg" alt="Logo" class="logo" />
+          <p>Science Student's Tools</p>
+        </h1>
       </section>
       <nav class="col-12 navbar navbar-expand-lg justify-content-center">
         <button
@@ -29,11 +33,14 @@
           class="collapse navbar-collapse justify-content-center text-center"
           id="header-nav"
         >
-          <div class="navbar-nav nav-underline">
-            <a class="nav-link mx-1 active" aria-current="page" href="#"
+          <div class="row navbar-nav nav-underline justify-content-center">
+            <a
+              class="col-auto nav-link mx-1 active"
+              aria-current="page"
+              href="#"
               >Home</a
             >
-            <div class="dropdown">
+            <div class="col-auto dropdown mx-2">
               <a
                 class="dropdown-toggle nav-link mx-1"
                 data-bs-toggle="dropdown"
@@ -56,7 +63,7 @@
                 >
               </div>
             </div>
-            <div class="dropdown">
+            <div class="col-auto dropdown mx-2">
               <a
                 class="dropdown-toggle nav-link mx-1"
                 data-bs-toggle="dropdown"
@@ -79,7 +86,7 @@
                 >
               </div>
             </div>
-            <div class="dropdown">
+            <div class="col-auto dropdown mx-2">
               <a
                 class="dropdown-toggle nav-link mx-1"
                 data-bs-toggle="dropdown"
@@ -102,7 +109,7 @@
                 >
               </div>
             </div>
-            <div class="dropdown">
+            <div class="col-auto dropdown mx-2">
               <a
                 class="dropdown-toggle nav-link mx-1"
                 data-bs-toggle="dropdown"
@@ -127,12 +134,10 @@
     </header>
     <main class="container px-5 my-5">
       <section class="container">
-        <section class="row align-items-center justify-content-evenly">
-          <article
-            class="col-sm-10 col-md-8 col-lg-5 intro-text-area p-3 align-self-center my-4"
-          >
+        <section class="row justify-content-center my-5">
+          <article class="col-sm-10 col-lg-8 intro-text-area p-4">
             <section>
-              <p class="text-center m-0">
+              <p class="text-center h3">
                 Welcome to Your
                 <span class="d-flex flex-nowrap justify-content-center"
                   >Ultimate Science Tools Kit.</span
@@ -149,7 +154,23 @@
                 essential tools and resources that will help you as a science
                 student.
               </p>
+              <p class="text-center">
+                <a href="#actionCenter">Start Learning Now</a>
+              </p>
             </section>
+          </article>
+        </section>
+        <section class="row align-items-center justify-content-evenly my-5">
+          <article
+            class="col-sm-10 col-md-8 col-lg-5 intro-text-area p-3 align-self-center my-4"
+          >
+            <p>
+              Empowering learners, educators, and science enthusiasts alike,
+              this toolbox provides curated insights, recommend interactive
+              tutorials, and other wonderful offers. Begin a journey of
+              discovery and empowerment in the realms of Maths, Physics, and
+              Chemistry. Let's explore, improve, and learn together!
+            </p>
           </article>
           <article class="col-sm-12 col-lg-6 my-4">
             <img
@@ -159,23 +180,12 @@
             />
           </article>
         </section>
-        <section class="row justify-content-center my-5">
-          <article class="col-sm-10 col-md-8 col-lg-6 intro-text-area p-3">
-            <p>
-              Empowering learners, educators, and science enthusiasts alike,
-              this toolbox provides curated insights, recommend interactive
-              tutorials, and other wonderful offers. Begin a journey of
-              discovery and empowerment in the realms of Maths, Physics, and
-              Chemistry. Let's explore, improve, and learn together!
-            </p>
-          </article>
-        </section>
       </section>
       <section class="container">
-        <section class="row justify-content-evenly">
-          <article class="card col-12 col-md-5 p-5">
+        <section class="row justify-content-around">
+          <article class="card col-11 col-lg-9">
             <img
-              class="card-img-top"
+              class="card-img-top align-self-center"
               src="../img/unit-card-img.jpg"
               alt="Image"
             />
@@ -191,24 +201,22 @@
                 and make learning formulas and their units a breeze.
               </p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" id="actionCenter">
               <p>
                 Here you can find
                 <a href="maths_units.html" class="card-link"
                   >all formulas for maths</a
-                >,<a href="physics_units.html" class="card-link"
+                ><a href="physics_units.html" class="card-link"
                   >all formulas for physics</a
-                >
-                and
-                <a href="chemistry_units.html" class="card-link"
+                ><a href="chemistry_units.html" class="card-link"
                   >all formulas for chemistry</a
                 >
               </p>
             </div>
           </article>
-          <article class="card col-12 col-md-5 p-5">
+          <article class="card col-11 col-lg-9">
             <img
-              class="card-img-top"
+              class="card-img-top align-self-center"
               src="../img/tutrecom-card-img.png"
               alt="Image"
             />
@@ -229,10 +237,10 @@
               Check out our list of
               <a href="/math_html/math_tutorials.html" class="card-link"
                 >Tutorials in Maths</a
-              >,
+              >
               <a href="/physics_html/physics_tutorials.html" class="card-link"
-                >Tutorials in Physics </a
-              >and
+                >Tutorials in Physics
+              </a>
               <a
                 href="/chemistry_html/chemistry_tutorials.html"
                 class="card-link"
@@ -241,9 +249,9 @@
               for each topic.
             </div>
           </article>
-          <article class="card col-12 col-md-6 p-5">
+          <article class="card col-11 col-lg-9">
             <img
-              class="card-img-top"
+              class="card-img-top align-self-center"
               src="../img/syllabus-card-img.webp"
               alt="Image"
             />
