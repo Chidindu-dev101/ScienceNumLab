@@ -22,7 +22,6 @@ header img {
 }
 .logo {
   width: 100px;
- 
 }
 header h1 {
   font-size: 2.2rem;
@@ -61,12 +60,8 @@ main section.container:first-child {
 main section.container:last-child {
   font-size: 1.2rem;
 }
-main
-  section.container:first-child
-  section.row:first-child
-  p.text-center:last-child
-  a {
-  color: #f7d702;
+.call-to-action {
+  color: #f8ff77;
   font-size: 1.5rem;
   display: none;
 }
@@ -84,11 +79,15 @@ article.intro-text-area:first-child {
 article.intro-text-area:last-child {
   box-shadow: 6px 6px #ff220c;
 }
-.intro-text-area p.text-highlight {
-  background-color: white;
+.intro-text-area .text-highlight {
+  background-color: #f8ff77;
   color: #730a00;
-  padding: 6px 6px;
-  font-size: 1.4rem;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.text-highlight img {
+  display: inline-block;
+  width: 10%;
 }
 .intro-text-area h2,
 .intro-text-area p,
@@ -115,8 +114,8 @@ article.card h2.card-title {
   font-family: Verdana, Tahoma, sans-serif;
   font-weight: 600;
 }
-a.card-link {
-  color: #f7d702;
+.card-link {
+  color: #f8ff77;
   margin-right: 6px;
   margin-left: 6px;
   font-family: Verdana, Tahoma, sans-serif;
@@ -126,7 +125,7 @@ a.card-link {
   flex-wrap: nowrap;
   word-spacing: 3px;
 }
-a.card-link:hover {
+.card-link:hover {
   color: #ff220c;
 }
 #back-to-top {
@@ -157,14 +156,14 @@ footer {
 }
 footer a,
 footer a:visited {
-  color: #f7d702;
+  color: #f8ff77;
   text-align: center;
 }
 footer a:hover {
   color: #ff220c;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   main
     section.container:first-child
     section.row:first-child
@@ -174,5 +173,15 @@ footer a:hover {
     text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+  }
+  .intro-text-area .text-highlight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .text-highlight img {
+    width: 20%;
+    float: left;
   }
 }
