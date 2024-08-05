@@ -45,3 +45,14 @@ article.card-footer p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
 }
+
+@media screen and (max-width: 576px) {
+  main section.row section.no-overflow .units {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  main section.row section.no-overflow .units {
+    font-size: 0.9rem;
+  }
+}
