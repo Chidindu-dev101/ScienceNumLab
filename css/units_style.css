@@ -1,17 +1,13 @@
-.heading-bg {
-  background-color: #f8ff77;
-  color: #730a00;
-}
 main section.card {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border-radius: 20px;
   color: #ffffff;
   background-color: #424242;
 }
 .unit-intro-area {
   border-radius: 20px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 section.card.unit-intro-area p.card-body {
@@ -47,6 +43,9 @@ article.card-footer p {
 }
 
 @media screen and (max-width: 576px) {
+  .no-overflow {
+    font-size: 1rem;
+  }
   main section.row section.no-overflow .units {
     font-size: 0.7rem;
   }

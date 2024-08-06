@@ -54,16 +54,23 @@ header h1,
   border: none;
   background-color: #ffffff;
 }
+.heading-bg {
+  background-color: #f8ff77;
+  color: #730a00;
+}
 main section.container:first-child {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  padding: 6vw;
 }
 main section.container:last-child {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  padding: 6.5vw;
 }
-.call-to-action {
+p:last-child a.call-to-action {
   color: #f8ff77;
   font-size: 1.5rem;
-  display: none;
+  font-weight: 600;
+  text-align: center;
 }
 .intro-image {
   width: 100%;
@@ -79,21 +86,34 @@ article.intro-text-area:first-child {
 article.intro-text-area:last-child {
   box-shadow: 6px 6px #ff220c;
 }
-.intro-text-area .text-highlight {
+main section.text-highlight {
   background-color: #f8ff77;
   color: #730a00;
   padding: 20px;
   font-size: 1.5rem;
 }
+.intro-text-area .text-highlight {
+  background-color: #f8ff77;
+  color: #730a00;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
 .text-highlight img {
   display: inline-block;
-  width: 10%;
+  width: 6vw;
+  min-width: 80px;
 }
 .intro-text-area h2,
 .intro-text-area p,
 main article.card {
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: left;
+  text-align: justify;
   border-radius: 50px;
   color: #ffffff;
   background-color: #424242;
@@ -113,17 +133,17 @@ main section.container:last-child section.row article.card .card-img-top {
 article.card h2.card-title {
   font-family: Verdana, Tahoma, sans-serif;
   font-weight: 600;
+  word-break: normal;
 }
-.card-link {
+.card-link,
+.call-to-action {
   color: #f8ff77;
-  margin-right: 6px;
-  margin-left: 6px;
+  margin: 15px;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 1.3rem;
   text-transform: capitalize;
-  display: flex;
-  flex-wrap: nowrap;
-  word-spacing: 3px;
+  display: block;
+  word-spacing: 4px;
 }
 .card-link:hover {
   color: #ff220c;
@@ -162,26 +182,31 @@ footer a:visited {
 footer a:hover {
   color: #ff220c;
 }
-
-@media (max-width: 800px) {
-  main
-    section.container:first-child
-    section.row:first-child
-    p.text-center:last-child
-    a {
-    display: contents;
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
+@media screen and (max-width: 768px) {
+  main article.card,
+  .intro-text-area p {
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1rem;
   }
   .intro-text-area .text-highlight {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    font-size: 1.4rem;
   }
   .text-highlight img {
-    width: 20%;
-    float: left;
+    width: 10vw;
+    min-width: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  p.text-center a.call-to-action {
+    display: contents;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
   }
 }
