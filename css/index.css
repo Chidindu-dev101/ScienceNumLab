@@ -4,13 +4,14 @@ html {
 body {
   line-height: 6vh;
   word-spacing: 0.25vw;
+  color: #ffffff;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.801)),
     url("../img/header-background.jpg");
   background-size: cover;
   background-position: center center;
-  color: #ffffff;
+
   box-shadow: 0px 5px #ff220c;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
@@ -28,14 +29,13 @@ header h1 {
   height: fit-content;
 }
 header h1,
-.intro-text-area p.text-highlight {
+.home-intro-area .text-highlight {
   font-weight: 800;
   letter-spacing: 0.5vw;
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 .navbar-nav .nav-link,
 .navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:active,
 .navbar-nav .nav-link.active {
   color: #ffffff;
 }
@@ -48,7 +48,7 @@ header h1,
 .dropdown-menu a:hover {
   color: #730a00;
   background-color: #ffffff;
-  font-weight: 700;
+  font-weight: 600;
 }
 .navbar-toggler {
   border: none;
@@ -57,6 +57,12 @@ header h1,
 .heading-bg {
   background-color: #f8ff77;
   color: #730a00;
+}
+.intro-area {
+  background-color: #424242;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 main section.container:first-child {
   font-size: 1.1rem;
@@ -75,24 +81,18 @@ p:last-child a.call-to-action {
 .intro-image {
   width: 100%;
 }
-.intro-text-area {
+.home-intro-area {
   background-color: #424242;
   color: #ffffff;
-  border-radius: 50px;
+  border-radius: 30px;
 }
-article.intro-text-area:first-child {
-  box-shadow: -6px -6px #ff220c;
+article.home-intro-area:first-child {
+  box-shadow: -4px -4px #ff220c;
 }
-article.intro-text-area:last-child {
-  box-shadow: 6px 6px #ff220c;
+article.home-intro-area:last-child {
+  box-shadow: 4px 4px #ff220c;
 }
-main section.text-highlight {
-  background-color: #f8ff77;
-  color: #730a00;
-  padding: 20px;
-  font-size: 1.5rem;
-}
-.intro-text-area .text-highlight {
+.home-intro-area .text-highlight {
   background-color: #f8ff77;
   color: #730a00;
   padding: 20px;
@@ -109,33 +109,33 @@ main section.text-highlight {
   width: 6vw;
   min-width: 80px;
 }
-.intro-text-area h2,
-.intro-text-area p,
-main article.card {
+.home-intro-area h2,
+.home-intro-area p,
+.body-content {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: justify;
-  border-radius: 50px;
+  border-radius: 30px;
   color: #ffffff;
   background-color: #424242;
 }
-main section.container:last-child section.row article.card {
+.body-content {
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 30px;
 }
-main section.container:last-child section.row article.card .card-img-top {
-  border-radius: 50px;
+.body-content .card-img-top {
+  border-radius: 30px;
   width: 90%;
   max-width: 450px;
 }
-article.card h2.card-title {
+.body-content h2.card-title {
   font-family: Verdana, Tahoma, sans-serif;
   font-weight: 600;
   word-break: normal;
 }
-.card-link,
+.body-content-link,
 .call-to-action {
   color: #f8ff77;
   margin: 15px;
@@ -145,7 +145,7 @@ article.card h2.card-title {
   display: block;
   word-spacing: 4px;
 }
-.card-link:hover {
+.body-content-link:hover {
   color: #ff220c;
 }
 .back-to-top {
@@ -183,13 +183,13 @@ footer a:hover {
   color: #ff220c;
 }
 @media screen and (max-width: 768px) {
-  main article.card,
-  .intro-text-area p {
+  main .body-content,
+  .home-intro-area p {
     text-align: center;
     border-radius: 30px;
     font-size: 1rem;
   }
-  .intro-text-area .text-highlight {
+  .home-intro-area .text-highlight {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
