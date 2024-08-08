@@ -1,0 +1,41 @@
+main {
+  padding: 10px;
+}
+.syllabus-table {
+  background-color: #424242;
+  color: #ffffff;
+  margin: 30px auto;
+}
+.table-head {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.table-row,
+.table-cell {
+  border-style: solid;
+  border-color: #ffffff;
+}
+.table-cell {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  padding: 15px;
+}
+.table-row .table-cell:first-child {
+  width: 35%;
+}
+@media screen and (max-width: 1024px) {
+  .table-cell {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+  .table-head {
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+  .table-row .table-cell:first-child {
+    width: 40%;
+  }
+}
