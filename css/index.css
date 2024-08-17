@@ -11,8 +11,7 @@ header {
     url("../img/header-background.jpg");
   background-size: cover;
   background-position: center center;
-
-  box-shadow: 0px 5px #ff220c;
+  border-bottom: 5px solid #ff220c;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   word-spacing: 5px;
@@ -55,6 +54,9 @@ header h1,
 .heading-bg {
   background-color: #f8ff77;
   color: #730a00;
+  padding: 20px;
+  font-size: 1.5rem;
+  letter-spacing: 0.8vw;
 }
 .intro-area {
   background-color: #424242;
@@ -70,11 +72,26 @@ header h1,
   font-size: 1.1rem;
   padding: 6.5vw;
 }
+p.call-to-action {
+  width: fit-content;
+  margin: auto;
+}
 a.call-to-action {
-  color: #f8ff77;
+  text-decoration: none;
+}
+button.call-to-action {
+  background-color: #f8ff77;
+  color: #730a00;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 15px;
+}
+button.call-to-action:hover {
+  transform: scale(1.1);
+  border: 5px solid #ff200c;
 }
 .intro-image {
   width: 100%;
@@ -85,11 +102,9 @@ a.call-to-action {
   border-radius: 30px;
 }
 .home-intro-area:first-child {
-  /* box-shadow: -4px -4px #ff220c; */
   border: 2px solid red;
 }
 .home-intro-area:last-child {
-  /* box-shadow: 4px 4px #ff220c; */
   border: 2px solid red;
 }
 .home-intro-area .text-highlight {
@@ -97,6 +112,7 @@ a.call-to-action {
   color: #730a00;
   padding: 20px;
   font-size: 1.5rem;
+  letter-spacing: 1vw;
   margin: 5vw;
   display: flex;
   flex-direction: row;
@@ -171,10 +187,14 @@ a.call-to-action {
   opacity: 1;
 }
 .footer {
+  border-top: 5px solid #ff220c;
   color: #ffffff;
   background-color: #424242;
 }
 @media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
   .body-content,
   .home-intro-area {
     text-align: center;
@@ -186,7 +206,7 @@ a.call-to-action {
     flex-direction: column;
     justify-content: space-evenly;
     align-content: space-evenly;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .text-highlight img {
     width: 10vw;
