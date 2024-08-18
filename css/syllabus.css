@@ -1,6 +1,7 @@
 header {
   border-bottom: none;
 }
+
 main {
   padding: 10px;
 }
@@ -15,8 +16,8 @@ h4 {
   line-height: 6vh;
 }
 button.syllabus-view {
-  background-color: #f8ff77;
-  color: #730a00;
+  background-color: #ffa500;
+  color: #ffffff;
   font-size: 1.4rem;
   font-weight: 600;
   text-align: center;

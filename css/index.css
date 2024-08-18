@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  line-height: 6vh;
-  word-spacing: 0.25vw;
+  line-height: 9vh;
+  letter-spacing: 0.15vw;
   color: #ffffff;
 }
 header {
@@ -12,7 +12,7 @@ header {
   background-size: cover;
   background-position: center center;
   border-bottom: 5px solid #ff220c;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   word-spacing: 5px;
   letter-spacing: 0.3vw;
@@ -22,19 +22,21 @@ header {
   margin-bottom: 15px;
 }
 header h1 {
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   height: fit-content;
+  color: #92c3f7;
 }
 header h1,
 .home-intro-area .text-highlight {
   font-weight: 800;
-  letter-spacing: 0.5vw;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 1vw;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .navbar-nav .nav-link,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
   color: #ffffff;
+  font-size: 2rem;
 }
 .dropdown-menu a {
   color: #ffffff;
@@ -43,8 +45,8 @@ header h1,
 }
 .dropdown-menu a.active,
 .dropdown-menu a:hover {
-  color: #730a00;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: orange;
   font-weight: 600;
 }
 .navbar-toggler {
@@ -52,36 +54,37 @@ header h1,
   background-color: #ffffff;
 }
 .heading-bg {
-  background-color: #f8ff77;
-  color: #730a00;
+  background-color: orange;
+  color: #ffffff;
   padding: 20px;
   font-size: 1.5rem;
-  letter-spacing: 0.8vw;
+  letter-spacing: 0.6vw;
 }
 .intro-area {
   background-color: #424242;
   border-radius: 20px;
-  font-size: 1.2rem;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 .body-div:first-child {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 6vw;
 }
 .body-div {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 6.5vw;
 }
 p.call-to-action {
   width: fit-content;
   margin: auto;
+  margin-top: 50px;
 }
 a.call-to-action {
   text-decoration: none;
 }
 button.call-to-action {
-  background-color: #f8ff77;
-  color: #730a00;
+  width: 50vw;
+  background-color: orange;
+  color: #ffffff;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
@@ -90,8 +93,8 @@ button.call-to-action {
   border-radius: 15px;
 }
 button.call-to-action:hover {
-  transform: scale(1.1);
-  border: 5px solid #ff200c;
+  transform: scale(1.05);
+  border: 3px solid #ffffff;
 }
 .intro-image {
   width: 100%;
@@ -102,14 +105,15 @@ button.call-to-action:hover {
   border-radius: 30px;
 }
 .home-intro-area:first-child {
-  border: 2px solid red;
+  border: 2px solid #ff200c;
 }
 .home-intro-area:last-child {
-  border: 2px solid red;
+  border: 2px solid #ff200c;
 }
 .home-intro-area .text-highlight {
-  background-color: #f8ff77;
-  color: #730a00;
+  border-radius: 40px;
+  background-color: orange;
+  color: #ffffff;
   padding: 20px;
   font-size: 1.5rem;
   letter-spacing: 1vw;
@@ -126,13 +130,24 @@ button.call-to-action:hover {
   min-width: 80px;
 }
 .home-intro-area h2,
-.home-intro-area p,
 .body-content {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: justify;
   border-radius: 30px;
   color: #ffffff;
   background-color: #424242;
+}
+.home-intro-area p {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+}
+.home-intro-area p.h2 {
+  color: #92c3f7;
+  line-height: 50px;
+  font-weight: 600;
 }
 .body-content {
   margin-left: 15px;
@@ -147,22 +162,23 @@ button.call-to-action:hover {
   max-width: 450px;
 }
 .body-content h2.card-title {
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
   word-break: normal;
+  color: #92c3f7;
 }
 .body-content-link,
 .call-to-action {
-  color: #f8ff77;
+  color: #ffa500;
   margin: 15px;
-  font-family: Verdana, Tahoma, sans-serif;
-  font-size: 1.3rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
   text-transform: capitalize;
   display: block;
   word-spacing: 4px;
 }
 .body-content-link:hover {
-  color: #ff220c;
+  color: #92c3f7;
 }
 .back-to-top {
   position: fixed;
@@ -170,7 +186,7 @@ button.call-to-action:hover {
   right: 10px;
   z-index: 1000;
   display: none;
-  background-color: #730a00;
+  background-color: #ffffff;
   color: white;
   border: none;
   border-radius: 50%;
@@ -183,6 +199,16 @@ button.call-to-action:hover {
   outline: none;
   opacity: 0.7;
 }
+.area-border {
+  border-width: 8px;
+  border-radius: 30px;
+  border-color: #424242;
+  border-style: solid;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
 .back-to-top:hover {
   opacity: 1;
 }
@@ -193,24 +219,39 @@ button.call-to-action:hover {
 }
 @media screen and (max-width: 768px) {
   header h1 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
+    letter-spacing: 1.5px;
+  }
+  header h2 {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+  }
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #ffffff;
+    font-size: 1.5rem;
   }
   .body-content,
   .home-intro-area {
     text-align: center;
     border-radius: 30px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .home-intro-area .text-highlight {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-content: space-evenly;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .text-highlight img {
     width: 10vw;
     min-width: 80px;
     margin-bottom: 20px;
+  }
+  button.call-to-action {
+    width: 70vw;
+    padding: 5px 10px;
   }
 }
