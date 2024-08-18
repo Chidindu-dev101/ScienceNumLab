@@ -24,7 +24,7 @@ header {
 header h1 {
   font-size: 3.5rem;
   height: fit-content;
-  color: #92c3f7;
+  color: #6fa9e3;
 }
 header h1,
 .home-intro-area .text-highlight {
@@ -45,8 +45,8 @@ header h1,
 }
 .dropdown-menu a.active,
 .dropdown-menu a:hover {
-  color: #ffffff;
-  background-color: orange;
+  color: #002445;
+  background-color: #ffa600;
   font-weight: 600;
 }
 .navbar-toggler {
@@ -54,10 +54,11 @@ header h1,
   background-color: #ffffff;
 }
 .heading-bg {
-  background-color: orange;
-  color: #ffffff;
+  background-color: #e69500;
+  color: #002445;
   padding: 20px;
   font-size: 1.5rem;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
   letter-spacing: 0.6vw;
 }
 .intro-area {
@@ -83,9 +84,9 @@ a.call-to-action {
 }
 button.call-to-action {
   width: 50vw;
-  background-color: orange;
-  color: #ffffff;
-  font-size: 1.5rem;
+  background-color: #ffa600;
+  color: #002445;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   padding: 20px 30px;
@@ -112,8 +113,8 @@ button.call-to-action:hover {
 }
 .home-intro-area .text-highlight {
   border-radius: 40px;
-  background-color: orange;
-  color: #ffffff;
+  background-color: #ffa600;
+  color: #002445;
   padding: 20px;
   font-size: 1.5rem;
   letter-spacing: 1vw;
@@ -145,7 +146,7 @@ button.call-to-action:hover {
   padding: 10px 10px;
 }
 .home-intro-area p.h2 {
-  color: #92c3f7;
+  color: #6fa9e3;
   line-height: 50px;
   font-weight: 600;
 }
@@ -165,11 +166,11 @@ button.call-to-action:hover {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
   word-break: normal;
-  color: #92c3f7;
+  color: #6fa9e3;
 }
 .body-content-link,
 .call-to-action {
-  color: #ffa500;
+  color: #ffbf47;
   margin: 15px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
@@ -178,7 +179,7 @@ button.call-to-action:hover {
   word-spacing: 4px;
 }
 .body-content-link:hover {
-  color: #92c3f7;
+  color: #6fa9e3;
 }
 .back-to-top {
   position: fixed;
@@ -186,8 +187,8 @@ button.call-to-action:hover {
   right: 10px;
   z-index: 1000;
   display: none;
-  background-color: #ffffff;
-  color: white;
+  background-color: #ffa600;
+  color: #002445;
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -199,16 +200,7 @@ button.call-to-action:hover {
   outline: none;
   opacity: 0.7;
 }
-.area-border {
-  border-width: 8px;
-  border-radius: 30px;
-  border-color: #424242;
-  border-style: solid;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
+
 .back-to-top:hover {
   opacity: 1;
 }
@@ -252,6 +244,7 @@ button.call-to-action:hover {
   }
   button.call-to-action {
     width: 70vw;
-    padding: 5px 10px;
+    font-size: 1.6rem;
+    padding: 15px 20px;
   }
 }
