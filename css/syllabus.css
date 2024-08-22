@@ -5,29 +5,35 @@ header {
 main {
   padding: 10px;
 }
+
 .body-content h3,
 .body-content h4 {
   font-size: 1.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 a.syllabus-view {
   text-decoration: none;
 }
+
 h4 {
   line-height: 6vh;
 }
+
 button.syllabus-view {
-  background-color: #ffa600;
-  color: #09407b;
+  background-color: #400808;
+  color: #ffe085;
   font-size: 1.6rem;
   font-family: Impact, "Arial Narrow Bold", sans-serif;
   text-align: center;
   padding: 20px 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.2vw;
   border: none;
   border-radius: 15px;
-  margin-top: 10vh;
-  margin-bottom: 5vh;
+  margin: 10vh 0 5vh;
+  transition: transform 0.3s ease-in-out;
 }
+
 button.syllabus-view:hover {
   transform: scale(1.05);
 }
