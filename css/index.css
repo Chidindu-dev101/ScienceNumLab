@@ -32,6 +32,11 @@ header {
   font-size: 8vw;
   height: fit-content;
   color: #ffe085;
+  margin: 20px 20px 20px;
+}
+.home-head {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 .page-head {
   font-size: 4vw;
@@ -100,7 +105,7 @@ a.call-to-action {
 }
 button.call-to-action {
   width: 55vw;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 600;
   text-align: center;
   padding: 20px 30px;
@@ -108,6 +113,7 @@ button.call-to-action {
   border-radius: 15px;
   color: #400808;
   background-color: #ffe085;
+  margin: 40px 40px;
   transition: transform 0.3s ease-in-out, border 0.3s ease;
 }
 
@@ -226,6 +232,24 @@ button.call-to-action:hover {
 
   border-top: 5px solid #d93a2b;
 }
+/* Base styles for sections */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(50px) scale(0.95);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+.fade-in-units {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+.visible-faded {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
 @media screen and (max-width: 768px) {
   .page-head {
     font-size: 6.5vw;
@@ -257,8 +281,7 @@ button.call-to-action:hover {
   }
   button.call-to-action {
     width: 70vw;
-    font-size: 6vw;
-    font-weight: 500;
+    font-size: 5vw;
     padding: 15px 20px;
   }
   .body-content-link {
