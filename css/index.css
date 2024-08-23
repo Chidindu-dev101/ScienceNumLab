@@ -3,15 +3,16 @@ html {
 }
 body {
   line-height: 9vh;
-  letter-spacing: 0.15vw;
   background-color: #dadadaaf;
   font-display: swap;
 }
 h1,
 h2,
 h3,
-h4 {
-  font-family: Helvetica, Arial, sans-serif;
+h4,
+.heading-bg {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.801)),
@@ -81,14 +82,12 @@ header {
 .heading-bg {
   padding: 20px;
   font-size: 1.5rem;
-  font-family: Impact, "Arial Narrow Bold", sans-serif;
   letter-spacing: 0.6vw;
   color: #400808;
   background-color: #ebc248;
 }
 .intro-area {
   border-radius: 20px;
-  font-family: Georgia, Times, "Times New Roman", serif;
   color: #ffe085;
   background-color: #400808;
 }
@@ -128,12 +127,8 @@ button.call-to-action:hover {
   border-radius: 30px;
   color: #ffe085;
   background-color: #400808;
-}
-.home-intro-area:first-child {
   border: 4px solid #ebc248;
-}
-.home-intro-area:last-child {
-  border: 4px solid #ebc248;
+  letter-spacing: 0.15vw;
 }
 .home-intro-area .text-highlight {
   border-radius: 40px;
@@ -154,9 +149,8 @@ button.call-to-action:hover {
   width: 6vw;
   min-width: 80px;
 }
-.home-intro-area h2,
 .body-content {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   border-radius: 30px;
 }

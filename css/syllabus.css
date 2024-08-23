@@ -21,10 +21,11 @@ h4 {
 }
 
 button.syllabus-view {
-  background-color: #400808;
-  color: #ffe085;
+  background-color: #ffe085;
+  color: #400808;
   font-size: 1.6rem;
-  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
   padding: 20px 30px;
   letter-spacing: 0.2vw;
