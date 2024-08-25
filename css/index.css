@@ -250,6 +250,9 @@ button.call-to-action:hover {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+  .navbar-toggler {
+    font-size: 1.3rem;
+  }
   .navbar-nav .nav-link,
   .navbar-nav .nav-link:hover,
   .navbar-nav .nav-link.active {

@@ -41,10 +41,7 @@ article.card-footer p {
 
 @media screen and (max-width: 576px) {
   .no-overflow {
-    font-size: 1rem;
-  }
-  main section.row section.no-overflow .units {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 }
 
