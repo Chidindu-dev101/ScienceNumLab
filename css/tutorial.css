@@ -1,0 +1,40 @@
+h3.body-heading {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.resoucre-headings {
+  border-radius: 10px;
+  text-align: center;
+}
+.intro-area h5 {
+  font-size: 1.4rem;
+}
+.intro-area p {
+  margin: 10px 10px;
+  font-size: 1.2rem;
+}
+.body-content {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.resoucre-card {
+  background-color: #ebc248;
+  color: #400808;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resource-card-title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+@media screen and(max-width:576px) {
+  .body-content {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}

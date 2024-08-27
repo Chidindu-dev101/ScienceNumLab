@@ -10,16 +10,19 @@ h1,
 h2,
 h3,
 h4,
-.heading-bg {
+.body-heading {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-header {
+.home-header {
+  border-bottom: 5px solid #d93a2b;
+}
+.header,
+.home-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.801)),
     url("/img/header-background.png");
   background-size: cover;
   background-position: center center;
-  border-bottom: 5px solid #d93a2b;
   font-size: 1.5rem;
   word-spacing: 5px;
   letter-spacing: 0.3vw;
@@ -63,7 +66,7 @@ header {
 .dropdown-menu a.active,
 .dropdown-menu a:hover,
 .dropdown-menu a:active,
-.heading-bg {
+.body-heading {
   font-weight: 600;
   color: #ffe085;
   background-color: #400808;
@@ -79,9 +82,9 @@ header {
   display: block;
   margin: auto;
 }
-.heading-bg {
+.body-heading {
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.6vw;
   color: #400808;
   background-color: #ebc248;
@@ -256,13 +259,13 @@ button.call-to-action:hover {
   .navbar-nav .nav-link,
   .navbar-nav .nav-link:hover,
   .navbar-nav .nav-link.active {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .body-content,
   .home-intro-area {
     text-align: center;
     border-radius: 30px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .home-intro-area .text-highlight {
     display: flex;

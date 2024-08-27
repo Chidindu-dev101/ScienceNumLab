@@ -21,7 +21,7 @@ h4 {
 }
 
 button.syllabus-view {
-  background-color: #ffe085;
+  background-color: #ebc248;
   color: #400808;
   font-size: 1.6rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -31,7 +31,8 @@ button.syllabus-view {
   letter-spacing: 0.2vw;
   border: none;
   border-radius: 15px;
-  margin: 10vh 0 5vh;
+  margin-top: 25vh;
+  margin-bottom: 45vh;
   transition: transform 0.3s ease-in-out;
 }
 
