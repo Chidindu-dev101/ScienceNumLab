@@ -1,3 +1,12 @@
+button.call-to-action {
+  width: 95%;
+  font-size: 1.5rem;
+  margin: auto;
+}
+h4.card-title {
+  font-size: 1.65rem;
+  font-weight: 600;
+}
 h3.body-heading {
   margin-top: 20px;
   margin-left: 10px;
@@ -18,7 +27,7 @@ h3.body-heading {
 }
 .body-content {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .resoucre-card {
   background-color: #ebc248;
