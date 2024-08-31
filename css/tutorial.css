@@ -14,6 +14,9 @@ h3.body-heading {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+.card-footer {
+  padding: 20px;
+}
 .resoucre-headings {
   border-radius: 10px;
   text-align: center;

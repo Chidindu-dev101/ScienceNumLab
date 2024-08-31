@@ -230,8 +230,7 @@ button.call-to-action:hover {
 
   border-top: 5px solid #d93a2b;
 }
-/* Base styles for sections */
-.fade-in-section {
+.fade-in-home {
   opacity: 0;
   transform: translateY(50px) scale(0.95);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -243,6 +242,19 @@ button.call-to-action:hover {
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   will-change: opacity, transform;
 }
+.fade-in-tutorial-left {
+  opacity: 0;
+  transform: translateX(-50px) scale(0.95);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  will-change: opacity, transform;
+}
+.fade-in-tutorial-right {
+  opacity: 0;
+  transform: translatex(50px) scale(0.95);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  will-change: opacity, transform;
+}
+
 .visible-faded {
   opacity: 1;
   transform: translateY(0) scale(1);

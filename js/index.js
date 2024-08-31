@@ -17,8 +17,14 @@ backToTopButton.onclick = function () {
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-  const sections = document.querySelectorAll(".fade-in-section");
+  const homeSections = document.querySelectorAll(".fade-in-home");
   const unitSections = document.querySelectorAll(".fade-in-units");
+  const tutorialSectionsLeft = document.querySelectorAll(
+    ".fade-in-tutorial-left"
+  );
+  const tutorialSectionsRight = document.querySelectorAll(
+    ".fade-in-tutorial-right"
+  );
 
   const options = {
     root: null, // relative to the viewport
@@ -34,10 +40,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, options);
 
-  sections.forEach((section) => {
+  homeSections.forEach((section) => {
     observer.observe(section);
   });
   unitSections.forEach((unitSection) => {
     observer.observe(unitSection);
+  });
+  tutorialSectionsLeft.forEach((tutorialSectionLeft) => {
+    observer.observe(tutorialSectionLeft);
+  });
+  tutorialSectionsRight.forEach((tutorialSectionRight) => {
+    observer.observe(tutorialSectionRight);
   });
 });
